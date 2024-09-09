@@ -1,0 +1,29 @@
+FOLDERS:
+backend
+frontend
+
+IN FRONTEND:
+npm create vite@latest
+npm i
+
+main folder:
+npm init -y
+npm install express mongoose jsonwebtoken bcryptjs dotenv cors cookie-parser cloudinary
+npm i -D nodemon
+
+In package.json file:
+"scripts": {
+    "dev": "nodemon backend/server.js", create server.js in backend also
+    "start": "node backend/server.js"
+}
+
+"keywords": [],
+"author": "",
+"type": "module",
+"license": "ISC",
+
+cmd Think:
+npm run dev
+
+
+In Terminal: teminal->  new terminal -> git bash -> cmd- openssl rand -base64 32
